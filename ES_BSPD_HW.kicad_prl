@@ -13,8 +13,9 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.27000001072883606
+      "zones": 0.12999999523162842
     },
+    "prototype_zone_fills": false,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -36,6 +37,7 @@
       "grid",
       "footprints_front",
       "footprints_back",
+      "footprint_values",
       "footprint_references",
       "tracks",
       "drc_errors",
@@ -48,16 +50,17 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
+    "integration_disabled": false,
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "BSPD_EM-06_1.0.kicad_prl",
+    "filename": "BSPD_2.0.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -90,18 +93,18 @@
       11
     ],
     "col_widths": [
-      156,
-      141,
-      103,
-      110,
-      103,
-      114,
-      113,
-      115,
-      103,
-      103,
-      103,
-      103
+      222,
+      207,
+      136,
+      149,
+      138,
+      154,
+      140,
+      158,
+      136,
+      136,
+      136,
+      136
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -110,6 +113,7 @@
     "filter_text": "",
     "group_by_constraint": false,
     "group_by_netclass": false,
+    "show_time_domain_details": false,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
@@ -120,6 +124,7 @@
     "files": []
   },
   "schematic": {
+    "hierarchy_collapsed": [],
     "selection_filter": {
       "graphics": true,
       "images": true,
@@ -127,6 +132,7 @@
       "lockedItems": false,
       "otherItems": true,
       "pins": true,
+      "ruleAreas": true,
       "symbols": true,
       "text": true,
       "wires": true
